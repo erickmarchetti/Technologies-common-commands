@@ -4,17 +4,20 @@ Esse é um repositório para ajudar a lembrar os comandos de tecnologias mais ut
 
 <br>
 
-# Índice
+<a id="indice"></a>
 
-## TECHS
+# Índice
 
 ### [Docker](#Docker)
 
-### [Python](#PYTHON)
+### [Python](#Python)
 
-<BR>
+<br>
 
-# Docker
+<a id="Docker"></a>
+
+<details>
+    <summary style="font-size: 18px">Docker:</summary>
 
 ### Listar todos os containers ativos
 
@@ -102,9 +105,20 @@ Imagens são uma receita para um container
 
 <hr/>
 
+### Criar image apartir de um dockerfile
+
+<code>docker build -t image_name .</code>
+
+<hr/>
+
+</details>
+
 <br>
 
-# PYTHON
+<a id="Python"></a>
+
+<details>
+    <summary style="font-size: 18px">Python:</summary>
 
 ## Verifica a versão do Python instalada
 
@@ -148,13 +162,15 @@ Imagens são uma receita para um container
 
 <hr/>
 
-## Ativa o ambiente virtual no diretório (WINDOWS)
+## Ativa o ambiente virtual no diretório
 
-<code>venv/Scripts/activate</code>
+<code>venv/bin/activate</code> (Linux)
+
+<code>venv/Scripts/activate</code> (Windows)
 
 <hr/>
 
-## Desativar o ambiente virtual no diretório(WINDOWS)
+## Desativar o ambiente virtual no diretório
 
 <code>deactivate</code>
 
@@ -219,3 +235,9 @@ Imagens são uma receita para um container
 <code>pip install python-dotenv</code>
 
 <hr/>
+
+</details>
+
+<br/>
+
+### [Índice](#indice)

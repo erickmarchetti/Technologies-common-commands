@@ -12,6 +12,8 @@ Esse é um repositório para ajudar a lembrar os comandos de tecnologias mais ut
 
 ### [Python](#Python)
 
+### [Criando do 0 com Django](#projetoDjango1)
+
 <br>
 
 <a id="Docker"></a>
@@ -236,8 +238,67 @@ Imagens são uma receita para um container
 
 <hr/>
 
+<br/>
+
+## Instala o drf-spectacular para criação da documentação da aplicação
+
+<code>pip install drf-spectacular</code>
+
+<hr/>
+
+## Cria o projeto em Django
+
+<code>django-admin startproject nome-do-projeto .</code>
+
+<hr/>
+
+## Cria app no projeto em Django
+
+<code>python manage.py startapp nome-do-apps</code>
+
+<hr/>
+
+## Conectar ao postgreSQL
+
+<code>psql -U nome-do-banco</code>
+
+<hr/>
+
+## Cria Super User na shell do projeto
+
+<code>./manage.py createsuperuser</code>
+
+<hr/>
 </details>
 
+<br>
+
+<a id="projetoDjango1"></a>
+
+<details>
+    <summary style="font-size: 18px">Projeto com Django do 0</summary>
+<br>
+
+### Passo a passo para criar do zero
+
+<code>1) Clone o repositório forkado para sua máquina local;</code>
+<br>
+<code>1) Entre nele;</code><br>
+<code>2) Crie seu ambiente virtual; (python -m venv venv)</code><br>
+<code>3) Ative o ambiente virtual; (source venv/scripts/activate)</code><br>
+<code>4) Instale os pacotes referentes ao Django Rest Framework;</code><br>
+<code>5) Crie um arquivo requirements.txt com as dependencias do projeto;</code><br>
+<code>6) Crie um arquivo .gitignore e ignore os arquivos necessários;</code><br>
+<code>7) Crie o projeto principal (django-admin startproject nome do projeto .)</code><br>
+<code>8) Entre no urls.py do projeto e coloque o include no import do url</code><br>
+<code>9) Entre no settings.py e faça as alterações devidas nos apps</code><br>
+<code>10) Customize a Model de user</code><br>
+<code>11) Instale a model customizada nos apps de settings.py</code><br>
+<code>12) Rode a primeira migration</code><br>
+<code>13) Faça a serializer de user</code>
+
+<hr/>
+</details>
 <br/>
 
 ### [Índice](#indice)
